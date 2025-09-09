@@ -5,8 +5,6 @@ body{
     background: #eee ;
     height:auto;
   font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
 }
 h1{
     font-weight: 400;
@@ -101,7 +99,7 @@ footer h3{
  
 
 /* Screen Sizes 500px and Up */
-@media(min width:500px){
+@media(min-width:500px) {
     #landing{
         display: flex;
         height:100%;
